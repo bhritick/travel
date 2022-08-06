@@ -1,0 +1,337 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <style>
+        #slide-1 {
+            background-image: url(https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            background-position: center;
+            background-size: cover
+        }
+        
+        #slide-2 {
+            background-image: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            background-position: center;
+            background-size: cover
+        }
+        
+        #slide-3 {
+            background-image: url(https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            background-position: center;
+            background-size: cover
+        }
+        
+        #queen {
+            background-image: url(https://images.pexels.com/photos/5738735/pexels-photo-5738735.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1600);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #queen div.container {
+            padding: 150px 0px;
+        }
+        
+        #her {
+            background-color: rgb(240, 244, 255);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        #her div.container {
+            padding: 100px 0px;
+        }
+        
+        #him {
+            background-color: rgb(238, 205, 16);
+            background-position: center;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Kdam Thmor Pro', sans-serif;
+            color: #1d4adf !important;
+        }
+        
+        #hero2 {
+            background-color: blue;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #him1 {
+            background-color: rgb(238, 205, 16);
+        }
+        
+        #header-video {
+            background-size: cover;
+        }
+        
+        #hero div.container {
+            padding: 150px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://img.freepik.com/free-vector/law-office_497289-40.jpg?w=740" alt="" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="doctor.html">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activity.html">Appoinment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="slide-1">
+                    <div class="my-5 py-5">
+                        <div class="my-5 py-5"></div>
+                    </div>
+                    <div class="text-center mb-5 text-light">
+
+                    </div>
+                </div>
+                <div class="carousel-item" id="slide-2">
+                    <div class="my-5 py-5">
+                        <div class="my-5 py-5"></div>
+                    </div>
+                    <div class="text-center mb-5 text-light">
+
+                    </div>
+                </div>
+                <div class="carousel-item" id="slide-3">
+                    <div class="my-5 py-5">
+                        <div class="my-5 py-5"></div>
+                    </div>
+                    <div class="text-center mb-5 text-light">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="her">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="display-5">Activity</h4>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/404960/pexels-photo-404960.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/533509/pexels-photo-533509.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/804575/pexels-photo-804575.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12 my-5">
+                    <h4 class="display-5 text-center my-3">Client Review</h4>
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h1>90+</h1>
+                                    <p>Awards</p>
+                                    <p>Separated they live in</p>
+                                </td>
+                                <td>
+                                    <h1>30+</h1>
+                                    <p>Awards</p>
+                                    <p>Separated they live in</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="wave-bg2 " id="her">
+        <div class="container">
+            <div class="row">
+                <h4 class="display-5 text-center mb-5">Popular Tour Packages</h4>
+                <div class="col-lg-4 col-12">
+                    <div class="card shadow rounded-0 border-0 my-5 p-3">
+                        <img src="https://images.pexels.com/photos/3369102/pexels-photo-3369102.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+                        <div class="card-body">
+
+                            <h3 class="lead text-center fs-4">Madrid City Tour</h3>
+                            <p class="lead text-justify fs-6">Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <a href="yoga-meditation.html" class="stretched-link link-style">Explore
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card bg-yellow rounded-0 border-0 p-3">
+                        <img src="https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+                        <div class="card-body">
+
+                            <h3 class="lead text-center fs-4">Best of Venice Tour</h3>
+                            <p class="lead text-justify fs-6">Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <a href="yoga-meditation.html" class="stretched-link link-style">Explore
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card shadow rounded-0 border-0 my-5 p-3">
+                        <img src="https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top rounded-0" alt="alternative text">
+
+                        <div class="card-body">
+
+                            <h3 class="lead text-center fs-4">Best of Venice Tour</h3>
+                            <p class="lead text-justify fs-6">Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <a href="yoga-meditation.html" class="stretched-link link-style">Explore
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-md-6 col-12 my-5 p">
+                    <h4 class="display-5">Truly memorable and exciting tour.</h4>
+                    <p class="lead my-4">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras. Tincidunt praesent semper feugiat nibh.</p>
+                    <a class="btn btn-primary py-2 px-4" href="tel:919433815504" role="button">
+                        <span class="px-2">learn more</span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade my-5" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+                        </div>
+                        <div class="carousel-inner shadow">
+                            <div class="carousel-item carousel-item-next carousel-item-start">
+                                <img src="https://images.pexels.com/photos/1660995/pexels-photo-1660995.jpeg?auto=compress&cs=tinysrgb&w=1600" class="d-block w-100 rounded" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&w=1600" class="d-block w-100 rounded" alt="...">
+                            </div>
+                            <div class="carousel-item active carousel-item-start">
+                                <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1600" class="d-block w-100 rounded" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="hero2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-12 ">
+                    <h4 class="display-5 text-center my-5 text-light">50% Off Your First Booking</h4>
+                </div>
+                <div class="col-md-4 col-12 ">
+                    <form class="card  rounded-0 text-center " id="him1">
+                        <h1>Find Tours</h1>
+
+                </div>
+            </div>
+
+        </div>
+        </form>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-12 ">
+                    <div class="card bg-transparent border-0">
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xcJtL7QggTI"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-12 ">
+                    <p class="text-center text-white pt-3 ">All Rights Reserved © 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2 " crossorigin="anonymous "></script>
+</body>
+
+</html>
