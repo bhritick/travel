@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <style>
         #hero {
-            background-image: url(https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            background-image: url(https://images.pexels.com/photos/3832684/pexels-photo-3832684.jpeg?auto=compress&cs=tinysrgb&w=1600);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -45,7 +45,7 @@
         }
         
         #him {
-            background-color: rgb(238, 205, 16);
+            background-color: rgb(16, 205, 238);
             background-position: center;
         }
         
@@ -56,11 +56,11 @@
         h5,
         h6 {
             font-family: 'Kdam Thmor Pro', sans-serif;
-            color: #1d4adf !important;
+            color: #131414 !important;
         }
         
         #hero2 {
-            background-color: blue;
+            background-color: rgb(21, 21, 22);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -68,7 +68,7 @@
         }
         
         #him1 {
-            background-color: rgb(238, 205, 16);
+            background-color: rgb(16, 131, 238);
         }
         
         #header-video {
@@ -120,21 +120,29 @@
     <section id="hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-12 ">
-                    <form class="card  rounded-0 mb-3 px-5 py-4 " id="him">
-                        <div class="row ">
-                            <div class="col-12 ">
-                                <div class="text-center">
-                                    <h2 class="display-4">This Summer, Let's Beat the Heat</h2>
-                                    <div class="mt-4">
-                                        <p>Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta.
-                                            <p>
-                                    </div>
-                                </div>
-                            </div>
-
+                <div class="col-md-6 col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade my-5" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
                         </div>
-                    </form>
+                        <div class="carousel-inner shadow">
+                            <div class="carousel-item carousel-item-next carousel-item-start">
+                                <h4 class="display-5 text-light">Exciting Family Tours in Budget with us</h4>
+                                <p class="lead my-4 text-light">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras praesent semper.</p>
+                            </div>
+                            <div class="carousel-item">
+                                <h4 class="display-5 text-light">Nature is Calling Escape Now</h4>
+                                <p class="lead my-4 text-light">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras praesent semper.</p>
+                            </div>
+                            <div class="carousel-item active carousel-item-start">
+                                <h4 class="display-5 text-light">The biggest adventure you can take</h4>
+                                <p class="lead my-4 text-light">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras praesent semper.</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>

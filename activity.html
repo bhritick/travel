@@ -9,22 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <style>
-        #slide-1 {
-            background-image: url(https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1600);
+        #hero {
+            background-image: url(https://images.pexels.com/photos/3385615/pexels-photo-3385615.jpeg?auto=compress&cs=tinysrgb&w=1600);
+            background-attachment: fixed;
             background-position: center;
-            background-size: cover
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         
-        #slide-2 {
-            background-image: url(https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1600);
-            background-position: center;
-            background-size: cover
-        }
-        
-        #slide-3 {
-            background-image: url(https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=1600);
-            background-position: center;
-            background-size: cover
+        #hero div.container {
+            padding: 150px 0px;
         }
         
         #queen {
@@ -50,7 +44,7 @@
         }
         
         #him {
-            background-color: rgb(238, 205, 16);
+            background-color: rgb(16, 205, 238);
             background-position: center;
         }
         
@@ -61,11 +55,11 @@
         h5,
         h6 {
             font-family: 'Kdam Thmor Pro', sans-serif;
-            color: #1d4adf !important;
+            color: #131414 !important;
         }
         
         #hero2 {
-            background-color: blue;
+            background-color: rgb(21, 21, 22);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -73,7 +67,7 @@
         }
         
         #him1 {
-            background-color: rgb(238, 205, 16);
+            background-color: rgb(16, 131, 238);
         }
         
         #header-video {
@@ -82,6 +76,11 @@
         
         #hero div.container {
             padding: 150px 0px;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -94,8 +93,8 @@
                     <img src="https://img.freepik.com/free-vector/law-office_497289-40.jpg?w=740" alt="" width="30" height="24">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -105,10 +104,10 @@
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="doctor.html">Doctors</a>
+                            <a class="nav-link" href="news.html">news</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="activity.html">Appoinment</a>
+                            <a class="nav-link" href="activity.html">activity</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -117,67 +116,61 @@
             </div>
         </nav>
     </header>
-
-    <section>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" id="slide-1">
-                    <div class="my-5 py-5">
-                        <div class="my-5 py-5"></div>
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class=" ">
+                    <div class="row ">
+                        <div class="col-12 ">
+                            <div class="text-center">
+                                <h2 class="display-4 text-light">Activity</h2>
+                                <div class="mt-4 text-light">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo
+                                        <p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-center mb-5 text-light">
-
-                    </div>
-                </div>
-                <div class="carousel-item" id="slide-2">
-                    <div class="my-5 py-5">
-                        <div class="my-5 py-5"></div>
-                    </div>
-                    <div class="text-center mb-5 text-light">
-
-                    </div>
-                </div>
-                <div class="carousel-item" id="slide-3">
-                    <div class="my-5 py-5">
-                        <div class="my-5 py-5"></div>
-                    </div>
-                    <div class="text-center mb-5 text-light">
-
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-
     <section id="her">
         <div class="container ">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h4 class="display-5">Activity</h4>
-                    <p class="lead my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
                             <div class="card">
                                 <img src="https://images.pexels.com/photos/404960/pexels-photo-404960.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
-
+                                <div class="card-img-overlay">
+                                    <p class="lead my-4 my-5 text-light">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras praesent semper.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
                                 <img src="https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
-
+                                <div class="card-img-overlay">
+                                    <p class="lead my-4 my-5 text-light">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras praesent semper.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
                                 <img src="https://images.pexels.com/photos/533509/pexels-photo-533509.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
-
+                                <div class="card-img-overlay">
+                                    <p class="lead my-4 my-5 text-light">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras praesent semper.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
                                 <img src="https://images.pexels.com/photos/804575/pexels-photo-804575.jpeg?auto=compress&cs=tinysrgb&w=1600" class="card-img-top" alt="...">
-
+                                <div class="card-img-overlay">
+                                    <p class="lead my-4 my-5 text-light">Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Sem et tortor consequat id porta nibh venenatis cras praesent semper.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -207,7 +200,7 @@
                         </tbody>
                     </table>
                 </div>
-                
+
             </div>
         </div>
     </section>
